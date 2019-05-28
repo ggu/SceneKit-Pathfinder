@@ -18,7 +18,7 @@ public class Maze {
     
         - Note: This value must be odd.
     */
-    public static let dimensions = 7
+    public static let dimensions = 9
     
     /// A grid-based graph representing the navigability space of the maze.
     public var graph: GKGridGraph<GKGridGraphNode>
